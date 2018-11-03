@@ -10,18 +10,18 @@
     <!-- My Style -->
     <style>
     	a {
-    		color: black;
+    		color: #6c757d;
     	}
     	a:hover {
-    		color: black;
+    		color: #6c757d;
     	}
     	a:visited {
-    		color: black;
+    		color: #6c757d;
     	}
     	a:link {
     		text-decoration: none;
 
-    	}
+    	}    
     </style>
 
     <title>Rifqi Abiyyu - Portfolio</title>
@@ -31,9 +31,9 @@
     	<div class="box mt-5 pt-5 ">
     		<center>
     			<img src="rifqi_abiyyu.jpg" alt="Profile Picture" style="width: 200px">
-					<blockquote class="blockquote">
-					  <p class="my-2">If you haven't given up,</p>
-					  <p> it means you haven't lost.</p>
+					<blockquote class="blockquote mt-4">
+					  If you haven't given up,<br>
+					  it means you haven't lost.
 					</blockquote>
 					<a href="https://fb.me/rfqbyy" target="_blank">Facebook</a> | 
 					<a href="https://twitter.com/rifqibyy" target="_blank">Twitter</a> | 
@@ -45,13 +45,15 @@
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <!-- My Script -->
     <script>
-    	
+    	$(document).ready(function(){
+		    $(".container").hide(0).fadeIn(1000)
+		});
     </script>
   </body>
 </html>
